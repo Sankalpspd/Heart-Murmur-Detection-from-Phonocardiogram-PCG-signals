@@ -50,7 +50,7 @@ The model is designed as a multi-input deep neural network combining convolution
 
 A stack of Convolutional Neural Network (CNN) layers processes the spectrogram input to extract spatial and frequency-based acoustic features.
 
-# Temporal Modeling with BiLSTM
+# Temporal Modeling with Bi-LSTM
 
 The CNN output is reshaped and passed through Bidirectional LSTM layers, enabling the model to capture temporal dependencies within heart sound signals.
 
